@@ -1,20 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="Ppong.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body  >
-   
-    <div id="myDiv"  style='margin-top:0px;'>
-        <p>0</p></div>
-    <div id="ball"   style='margin-left:50px;margin-top:0px;'></div>
-    <div id="pcDiv"  style='margin-top:0px;'>
-        <p>0</p></div>
-</body>
-<footer><script src="Ppong.js"></script>
-</footer>
-</html>
+<div id="myDiv" onmousemove="myLeftFunction()" style='margin-top:0px;'>
+    <p>0</p>
+  </div>
+  <div id="ball" style='margin-left:50px;margin-top:0px;'></div>
+  <div id="pcDiv" onmousemove="myRightFunction()" style='margin-top:0px;'>
+    <p>0</p>
+  </div>
+  
+  <dialog id="start">
+    <p id="text">
+      Controls: mouse movements or ArrowUp/Down.
+    </p>
+    <button onclick="closeDialogAndStart()" id="go">Alright, let me play!</button>
+  </dialog>

@@ -1,51 +1,62 @@
-html, body{margin:0px; padding:0px; }
-
-body{
-    background-color: rgb(45, 45, 158);
-    
+html,
+body {
+  margin: 0px;
+  padding: 0px;
 }
 
-#pc > rect{
-    fill:rgb(172, 76, 172);
-    stroke-width:6;
-    stroke:rgb(0,0,0);
-    transform:rotateY(180deg);
+body {
+  background-color: rgb(45, 45, 158);
 }
 
 div#myDiv {
-    background-color: yellow;
-    border: 1px solid black;
+  background-color: yellow;
 }
+
 div#pcDiv {
-    left:94%;
-    margin-right: 200;
-    background-color: rgb(158, 48, 185);
-    border: 1px solid black;
+  left: 94%;
+  background-color: rgb(158, 48, 185);
 }
-      
+
 div {
-    box-shadow: 0px 1px 0px 1px rgba(6, 6, 32, 0.747);
-    writing-mode:vertical-rl;
-    top: 50%;
-    position:absolute;
-    width: 80px;
-    height: 20px;
-    transform: rotate(270deg);
-    border-radius: 10px;
+  border: 1px solid black;
+  box-shadow: 0px 1px 3px 1px rgba(6, 6, 32, 0.747);
+  writing-mode: vertical-rl;
+  top: 50%;
+  position: absolute;
+  width: 80px;
+  height: 20px;
+  transform: rotate(270deg);
+  border-radius: 10px;
 }
 
-div>p{
-    font-size:x-large;
-    text-align: center;
-    color:rgb(19, 10, 104);
+div > p {
+  font-size: x-large;
+  text-align: center;
+  color: rgb(19, 10, 104);
 }
 
-#ball{
-    left: 50%;
-    width: 17px;
-    height: 17px;
-    display: block;
-    background-color: rgb(210, 191, 214);
-    border: 1px solid black;
-    border-radius: 100px;
+#ball {
+  left: 50%;
+  width: 17px;
+  height: 17px;
+  /*display: block;*/
+  background-color: rgb(210, 191, 214);
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+dialog {
+  border-radius: 9px;
+  border: 5px solid red;
+  background-color: yellow;
+  box-shadow: 3px 3px 10px rgba(0 0 0 / 0.5);
+  font-family: OCR A Std, monospace;
+  font-size: x-large;
+}
+dialog > button {
+  border-radius: 4px;
+  background-color: red;
+  box-shadow: 3px 3px 10px rgba(0 0 0 / 0.5);
+  font-family: OCR A Std, monospace;
+  font-size: medium;
 }
